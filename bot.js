@@ -10,5 +10,10 @@ client.on('message', msg => {
     msg.reply('Welcome To Our Server :wave: :wave:');
   }
 });
+client.on('message', msg => {
+  if (msg.content === 'hello') {
+    msg.reply('Welcome To Our Server :wave: :wave:');
+  }
+});
 
 client.login('NTM0MDQ1MTY0NTQ1NjM4NDQz.Dxz35g.psldIb9OfHJJiac0faJ2-OEzwJU');
